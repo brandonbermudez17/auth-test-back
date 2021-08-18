@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-graphql = "*"
+graphene = "*"
+flask-graphql-auth = "*"
+graphene-sqlalchemy = "*"
+flask-sqlalchemy = "*"
+flask-cors = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"
